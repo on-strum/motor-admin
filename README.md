@@ -28,7 +28,7 @@ Search, create, update, and delete data entries using a convenient UI. Create co
 ### Docker
 
 ```bash
-docker run -it -p 3000:3000 -v `pwd`:/app motoradmin/motoradmin:latest
+docker run -it -p 3000:3000 -v `pwd`:/app bestwebua/motoradmin:latest
 ```
 
 ### Docker Compose
@@ -100,6 +100,12 @@ docker compose up
 ### Optimized for Mobile
 
 ![motor-mobile](https://user-images.githubusercontent.com/5418788/119269566-03392d00-bc01-11eb-9e9d-1f6a58fe0749.png)
+
+## Develop
+
+```bash
+git clone https://github.com/on-strum/motor-admin.git --recurse-submodules
+```
 
 ## License
 

@@ -4,7 +4,7 @@ services:
   app:
     depends_on:
       - 'postgres'
-    image: 'motoradmin/motoradmin:latest'
+    image: 'bestwebua/motoradmin:latest'
     ports:
       - '3000:3000'
     volumes:

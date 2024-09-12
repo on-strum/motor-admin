@@ -15,7 +15,7 @@ Search, create, update, and delete data entries using a convenient UI. Create co
 
 ### Heroku
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bestwebua/motor-admin-heroku)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/on-strum/motor-admin-heroku)
 
 ### Railway
 
@@ -23,7 +23,7 @@ Search, create, update, and delete data entries using a convenient UI. Create co
 
 ### Digital Ocean
 
-[![Deploy on Digital Ocean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/bestwebua/motor-admin/tree/master&refcode=33c75473a82d)
+[![Deploy on Digital Ocean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/on-strum/motor-admin/tree/master&refcode=33c75473a82d)
 
 ### Docker
 
@@ -50,7 +50,7 @@ docker compose up
 * [Email alerts](#email-alerts)
 * [Intelligence search](#intelligence-search)
 * [Optimized for mobile](#optimized-for-mobile)
-* [Configurations Sync](https://github.com/bestwebua/motor-admin/tree/master/guides/configurations_sync_between_environments.md)
+* [Configurations Sync](https://github.com/on-strum/motor-admin/tree/master/guides/configurations_sync_between_environments.md)
 * [Roles and permissions control](https://docs.getmotoradmin.com/guide/roles_and_permissions.html)
 * Multiple databases support
 * Audit log

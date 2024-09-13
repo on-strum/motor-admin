@@ -34,7 +34,7 @@ docker run -it -p 3000:3000 -v `pwd`:/app bestwebua/motoradmin:latest
 ### Docker Compose
 
 ```bash
-curl https://raw.githubusercontent.com/bestwebua/motor-admin/master/docker-compose.yml  | sed "s/SECRET_KEY_BASE:/SECRET_KEY_BASE: `openssl rand -hex 64`/" > docker-compose.yml
+curl https://raw.githubusercontent.com/on-strum/motor-admin/master/docker-compose.yml  | sed "s/SECRET_KEY_BASE:/SECRET_KEY_BASE: `openssl rand -hex 64`/" > docker-compose.yml
 
 docker compose up
 ```

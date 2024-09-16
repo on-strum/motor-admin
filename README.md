@@ -103,8 +103,34 @@ docker compose up
 
 ## Develop
 
+### Clone the repository with git submodules
+
 ```bash
 git clone https://github.com/on-strum/motor-admin.git --recurse-submodules
+```
+
+### Install frontend core dependencies
+
+```bash
+yarn install
+```
+
+### Install frontend vendor dependencies
+
+```bash
+cd ./vendor/motor-admin/ui && yarn install
+```
+
+### Build the vendor frontend
+
+```bash
+cd ./vendor/motor-admin/ui && yarn build:prod
+```
+
+### Build the core frontend
+
+```bash
+yarn build
 ```
 
 ## License

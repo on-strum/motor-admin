@@ -133,6 +133,12 @@ cd ./vendor/motor-admin/ui && yarn build:prod
 yarn build
 ```
 
+### Run Webpack Dev Server
+
+```bash
+./bin/webpacker-dev-server
+```
+
 ## License
 
 Motor Admin is licensed under the AGPL v3 license.

@@ -1,6 +1,13 @@
 {
   "name": "motor-edge",
   "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "webpack serve --config ./config/webpack/webpack.config.js",
+    "build": "webpack build --config ./config/webpack/webpack.config.js",
+    "eslint": "./node_modules/eslint/bin/eslint.js \"app/packs/**/*.{js,vue}\" --fix",
+    "stylelint": "./node_modules/stylelint/bin/stylelint.js \"app/packs/**/*.{scss,css}\" --fix"
+  },
   "dependencies": {
     "@babel/core": "7",
     "@babel/plugin-transform-runtime": "7",
@@ -14,7 +21,6 @@
     "compression-webpack-plugin": "9",
     "css-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.1.0",
-    "node-sass": "^6.0.1",
     "postcss": "^8.3.6",
     "postcss-import": "^14.0.2",
     "postcss-loader": "^6.1.1",
@@ -32,15 +38,6 @@
     "webpack-cli": "4",
     "webpack-merge": "5"
   },
-  "scripts": {
-    "serve": "./node_modules/webpack/bin/webpack.js serve",
-    "build:dev": "./node_modules/webpack/bin/webpack.js",
-    "build:test": "./node_modules/webpack/bin/webpack.js --env test",
-    "build:prod": "./node_modules/webpack/bin/webpack.js --env production",
-    "eslint": "./node_modules/eslint/bin/eslint.js \"app/packs/**/*.{js,vue}\" --fix",
-    "stylelint": "./node_modules/stylelint/bin/stylelint.js \"app/packs/**/*.{scss,css}\" --fix"
-  },
-  "version": "0.1.0",
   "devDependencies": {
     "@webpack-cli/serve": "^1.5.1",
     "babel-eslint": "^10.1.0",
